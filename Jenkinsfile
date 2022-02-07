@@ -44,6 +44,7 @@ pipeline {
             parallel {
                 stage('Bootstrap') {
                     steps {
+			
                         echo "Bootstrapping commit ${SG_COMMIT}"
                         sh 'cp .scm-checkout/bootstrap.sh .'
                         sh 'chmod +x bootstrap.sh'

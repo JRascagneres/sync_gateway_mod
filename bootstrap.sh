@@ -26,7 +26,7 @@
 
 # Default to CE
 EDITION="ce"
-TARGET_REPO="https://github.com/couchbase/sync_gateway.git"
+TARGET_REPO="https://github.com/jrascagneres/sync_gateway_mod.git"
 
 # By default, will run "repo init" followed by "repo sync".
 # If this is set to 1, skips "repo sync" 
